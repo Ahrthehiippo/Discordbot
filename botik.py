@@ -1,7 +1,7 @@
 import discord
 from discord.ext import commands
 from model import *
-from tokenconfig import *
+from tokenconfig import * #Create tokenconfig.py with your discord token
 
 intents = discord.Intents.default()
 intents.message_content = True
